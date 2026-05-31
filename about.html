@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>About Us - Averra Data</title><link rel="stylesheet" href="assets/style.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"><link rel="icon" href="assets/images/favicon.png"></head>
+<body>
+
+<header class="site-header">
+  <div class="top-strip">
+    <span>📞 +91 9322662805</span>
+    <span>✉ info@averradata.com</span>
+    <span>🌐 www.averradata.com</span>
+    <span class="social-top">
+      <a class="fb" href="#" title="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+      <a class="tw" href="#" title="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+      <a class="ig" href="#" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+      <a class="yt" href="#" title="YouTube"><i class="fa-brands fa-youtube"></i></a>
+      <a class="li" href="#" title="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+      <a class="tg" href="#" title="Telegram"><i class="fa-brands fa-telegram"></i></a>
+    </span>
+  </div>
+  <nav class="navbar">
+    <a href="index.html" class="logo-wrap">
+      <img src="assets/images/averra-logo-clean.png" alt="Averra Data Logo">
+      <div><strong>Averra Data</strong><small>Training Academy</small><em>Insight | Trust | Impact</em></div>
+    </a>
+    <button class="menu-btn" onclick="toggleMenu()">☰</button>
+    <div class="nav-links" id="navLinks">
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <div class="dropdown">
+        <a href="courses.html" class="dropbtn">Courses Offering ▾</a>
+        <div class="dropdown-menu"><a href="courses.html#1">Data Analytics Professional Program</a>
+<a href="courses.html#2">Statistics for Data Science</a>
+<a href="courses.html#3">SQL Mastery Program</a>
+<a href="courses.html#4">Python for Data &amp; AI</a>
+<a href="courses.html#5">Data Governance Professional</a>
+<a href="courses.html#6">Data Quality &amp; Metadata Management</a>
+<a href="courses.html#7">Data Engineering Program</a>
+<a href="courses.html#8">Machine Learning Professional</a>
+<a href="courses.html#9">Deep Learning &amp; Computer Vision</a>
+<a href="courses.html#10">NLP &amp; Large Language Models</a>
+<a href="courses.html#11">Generative AI &amp; Agentic AI</a>
+<a href="courses.html#12">AI Governance &amp; Responsible AI</a></div>
+      </div>
+      <a href="features.html">Training Features</a>
+      <a href="testimonials.html">Testimonials</a>
+      <a href="blog.html">Blog</a>
+      <a href="contact.html">Contact Us</a>
+    </div>
+  </nav>
+</header>
+
+<div class="float-social">
+  <a class="whatsapp" href="https://wa.me/919322662805" title="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+  <a class="facebook" href="#" title="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+  <a class="instagram" href="#" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+  <a class="youtube" href="#" title="YouTube"><i class="fa-brands fa-youtube"></i></a>
+  <a class="telegram" href="#" title="Telegram"><i class="fa-brands fa-telegram"></i></a>
+</div>
+
+<div class="chatbot-widget" id="chatbot">
+  <button class="chat-close" onclick="toggleBot()">×</button>
+  <div class="chat-head">Averra Assistant</div>
+  <div class="chat-body" id="chatBody">
+    <p><b>Hello!</b> 👋<br>How can I help you?</p>
+    <button onclick="botReply('courses')">Show Courses</button>
+    <button onclick="botReply('fees')">Fees / Duration</button>
+    <button onclick="botReply('contact')">Contact Academy</button>
+  </div>
+  <div class="chat-input">
+    <input id="botInput" placeholder="Type your question...">
+    <button onclick="sendBot()">Send</button>
+  </div>
+</div>
+<button class="chat-bubble" onclick="toggleBot()">💬<span>1</span></button>
+
+<section class="page-banner about-banner real-about-banner">
+  <div class="about-banner-text"><h1>About <span>Us</span></h1></div>
+  <div class="about-banner-image"><img src="assets/images/classroom-training.png" alt="Classroom training"></div>
+</section>
+
+<section class="about-section improved-about">
+  <div class="about-visual real-person"><img src="assets/images/person-megaphone.png" alt="Person speaking with megaphone"></div>
+  <div class="about-copy">
+    <span class="title-chip">🎓 AVERRA DATA IS A PRACTICAL ACADEMY FOR DATA, GOVERNANCE & AI CAREERS.</span>
+    <h2>Who We <span>Are?</span></h2>
+    <p>Averra Data Training Academy helps students, freshers and working professionals build career-ready skills in Data Analytics, SQL, Python, Power BI, Data Governance, Data Quality, Metadata, Data Engineering, Machine Learning, GenAI and AI Governance.</p>
+    <p>Our training is designed around real business problems, practical assignments, dashboarding, SQL case studies, governance controls, metadata examples, data quality rules and AI use cases.</p>
+    <h2>Our Mission <span>& Vision</span></h2>
+    <p>Our mission is to make Data and AI education simple, practical and career-focused. Our vision is to become a trusted academy where learners gain clarity, confidence and job-ready skills for modern data roles.</p>
+  </div>
+</section>
+
+<section class="why-choose">
+  <h2>Why To Choose <span>Us</span></h2>
+  <p>We focus on strong fundamentals, hands-on practice, real-world examples and career direction. Students do not just learn tools; they understand how data is collected, cleaned, governed, analyzed, engineered and used for business and AI decisions.</p>
+</section>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <div>
+      <img src="assets/images/averra-logo-clean.png" class="footer-logo" alt="Averra Logo">
+      <h3>ABOUT US</h3>
+      <p>Averra Data Training Academy is a career-focused Data and AI training institute offering practical learning in Analytics, SQL, Python, Data Governance, Data Engineering and AI.</p>
+    </div>
+    <div>
+      <h3>QUICK LINKS</h3>
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="courses.html">Course Offering</a>
+      <a href="features.html">Training Features</a>
+      <a href="testimonials.html">Testimonials</a>
+      <a href="contact.html">Contact Us</a>
+    </div>
+    <div>
+      <h3>CONTACT US</h3>
+      <p><b>Call Us</b><br>+91 9322662805</p>
+      <p><b>Mail Us</b><br>info@averradata.com</p>
+      <p><b>Website</b><br>www.averradata.com</p>
+    </div>
+    <div>
+      <h3>REACH US</h3>
+      <p><b>Pirangut, Pune</b><br>Samarth Krupa Building, Amrale Jewellers, Lawale Phata, Pirangut, Tal. Mulshi, Dist. Pune 412115</p>
+    </div>
+  </div>
+  <div class="copyright">© Averra Data Training Academy. All Rights Reserved.</div>
+</footer>
+
+<script src="assets/script.js"></script>
+</body></html>
