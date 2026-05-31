@@ -1,7 +1,0 @@
-[
- {"q":"Which course is best for beginners?","a":"Start with Data Analysis or SQL & Database Systems. These courses build a strong foundation for analytics, governance and AI."},
- {"q":"Do you provide online classes?","a":"Yes. Averra can provide online, offline and hybrid training depending on batch planning."},
- {"q":"How can I enroll?","a":"Open the Courses page, choose a course, click Enroll Now and submit the enquiry form. Our team will contact you."},
- {"q":"Do you provide certificates?","a":"Yes. Certificate of completion can be issued after learning, practice and assessments."},
- {"q":"How do payments work?","a":"For static website launch, use Razorpay Payment Links. Dynamic payment gateway can be added later with Django."}
-]
